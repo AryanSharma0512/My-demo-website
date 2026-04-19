@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume | Aryan Sharma</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">AS</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="albums.html">Albums</a></li>
+                <li><a href="resume.html" class="active">Resume</a></li>
+            </ul>
+            <div class="nav-controls">
+                <button id="dark-mode-toggle" aria-label="Toggle Dark Mode">
+                    <span class="mode-icon">🌙</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <main class="content-wrapper section-padding">
+        <section class="fade-in-section">
+            <h1 class="page-title">Resume</h1>
+            <p class="section-intro">Detailed overview of my academic background and professional aspirations.</p>
+            
+            <div class="resume-actions card">
+                <p>Welcome to my professional summary. Below you can view or download my latest resume.</p>
+                <div class="btn-group">
+                    <!-- Link to assets/resume-placeholder.pdf -->
+                    <a href="assets/resume-placeholder.pdf" class="btn btn-primary" target="_blank">View Full PDF</a>
+                    <a href="assets/resume-placeholder.pdf" class="btn btn-secondary" download>Download Resume</a>
+                </div>
+            </div>
+
+            <!-- PDF Embed (Optional/Fallback) -->
+            <div class="resume-viewer fade-in-section">
+                <!-- If the browser supports PDF embedding -->
+                <object data="assets/resume-placeholder.pdf" type="application/pdf" width="100%" height="800px">
+                    <div class="pdf-fallback">
+                        <p>It looks like your browser doesn't support embedding PDFs. No worries! You can <a href="assets/resume-placeholder.pdf" target="_blank">click here to download the PDF file.</a></p>
+                    </div>
+                </object>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://github.com/AryanSharma0512" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://www.linkedin.com/in/aryan-sharma-0512v/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </div>
+            <p class="copyright">&copy; 2024 Aryan Sharma. Built with passion and code.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

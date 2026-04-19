@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aryan Sharma | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Times New Roman is a system font, no need for Google Fonts unless I want a specific serif -->
+</head>
+<body class="light-mode"> <!-- Default to light mode, classes handled by JS -->
+    
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">AS</a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="albums.html">Albums</a></li>
+                <li><a href="resume.html">Resume</a></li>
+            </ul>
+            <div class="nav-controls">
+                <button id="dark-mode-toggle" aria-label="Toggle Dark Mode">
+                    <span class="mode-icon">🌙</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <main class="hero-section">
+        <div class="fade-in-section">
+            <div class="profile-container">
+                <!-- Using a placeholder for now, user can replace with assets/profile-placeholder.jpg -->
+                <img src="https://picsum.photos/seed/aryan/400/400" alt="Aryan Sharma" class="profile-photo" referrerPolicy="no-referrer">
+            </div>
+            <h1 class="full-name">Aryan Jitendrakumar Sharma</h1>
+            <p class="tagline">I build systems that last and create impact in people’s lives.</p>
+            
+            <div class="hero-intro">
+                <p>Welcome to my personal corner of the web. I'm a sophomore at Purdue University dedicated to solving real-world problems at the intersection of technology and agriculture.</p>
+            </div>
+
+            <div class="hero-cta">
+                <a href="about.html" class="btn btn-primary">Learn More</a>
+                <a href="projects.html" class="btn btn-secondary">View Projects</a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://github.com/AryanSharma0512" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://www.linkedin.com/in/aryan-sharma-0512v/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="mailto:sharm967@purdue.edu">Email</a>
+            </div>
+            <p class="copyright">&copy; 2024 Aryan Sharma. Built with passion and code.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

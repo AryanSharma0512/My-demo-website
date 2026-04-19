@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Albums | Aryan Sharma</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Globe.gl and Three.js requirements -->
+    <script src="https://unpkg.com/three"></script>
+    <script src="https://unpkg.com/globe.gl"></script>
+</head>
+<body class="albums-page">
+    
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">AS</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="albums.html" class="active">Albums</a></li>
+                <li><a href="resume.html">Resume</a></li>
+            </ul>
+            <div class="nav-controls">
+                <button id="dark-mode-toggle" aria-label="Toggle Dark Mode">
+                    <span class="mode-icon">🌙</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <main class="globe-viewport">
+        <div id="globeViz"></div>
+        
+        <div class="globe-overlay fade-in-section">
+            <h1 class="globe-title">Travel Albums</h1>
+            <p class="globe-subtitle">A collection of memories across the globe. Click on a marker to explore.</p>
+        </div>
+
+        <!-- Album Preview Modal/Panel -->
+        <div id="album-modal" class="album-modal">
+            <div class="modal-content">
+                <button class="close-modal" id="close-modal">&times;</button>
+                <div id="modal-body">
+                    <!-- Placeholder content populated by JS -->
+                    <div class="placeholder-loader">Select a location...</div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer fixed-footer">
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://github.com/AryanSharma0512" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://www.linkedin.com/in/aryan-sharma-0512v/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </div>
+            <p class="copyright">&copy; 2024 Aryan Sharma. Explorations in motion.</p>
+        </div>
+    </footer>
+
+    <!-- Regular script.js for navbar/darkmode -->
+    <script src="script.js"></script>
+    <!-- Albums specific logic -->
+    <script src="albums.js"></script>
+</body>
+</html>
