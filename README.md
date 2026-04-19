@@ -16,12 +16,12 @@ Welcome to the personal portfolio website of Aryan Sharma. This project is built
 
 ### 1. Update Profile Photo
 - Place your profile picture in the `assets/` folder.
-- Name it `profile-placeholder.jpg` or update the `src` attribute in `index.html`.
-- Currently, it uses a placeholder image from Picsum.
+- Name it `profile-photo.jpg`.
+- Currently, the site is configured to look for this file.
 
 ### 2. Update Resume
 - Place your resume PDF in the `assets/` folder.
-- Name it `resume-placeholder.pdf`.
+- Name it `resume.pdf`.
 - The links in `resume.html` are already configured to point to this file.
 
 ### 3. Edit Text Content
